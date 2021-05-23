@@ -36,10 +36,6 @@ const hikeSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
-  // //an array item for all fav hikes
-  // favouriteHikes: [
-  //   { type: Schema.ObjectId, ref: 'Hikes' }
-  // ]
 }, { timestamps: true })
 
 
